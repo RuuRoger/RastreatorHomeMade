@@ -65,7 +65,7 @@
             // buttonSearch
             // 
             this.buttonSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonSearch.Location = new System.Drawing.Point(550, 40);
+            this.buttonSearch.Location = new System.Drawing.Point(539, 40);
             this.buttonSearch.Name = "buttonSearch";
             this.buttonSearch.Size = new System.Drawing.Size(109, 37);
             this.buttonSearch.TabIndex = 3;
