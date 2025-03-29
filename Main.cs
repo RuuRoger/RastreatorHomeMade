@@ -10,11 +10,32 @@ using System.Windows.Forms;
 
 namespace RastreatorHomeMade
 {
-    public partial class txtBoxSearch : Form
+    public partial class Main : Form
     {
-        public txtBoxSearch()
+        public Main()
         {
             InitializeComponent();
         }
+
+        #region Method
+
+        private void OpendAddContactForm()
+        {
+            //field
+            ContactDetails contactDetails = new ContactDetails();
+
+            contactDetails.ShowDialog();
+        }
+
+        #endregion
+
+        #region Winforms Events
+
+        private void buttonAddContact_Click(object sender, EventArgs e)
+        {
+            OpendAddContactForm();
+        }
+
+        #endregion
     }
 }

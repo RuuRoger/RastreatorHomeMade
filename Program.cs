@@ -16,7 +16,7 @@ namespace RastreatorHomeMade
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new txtBoxSearch());
+            Application.Run(new Main());
         }
     }
 }
